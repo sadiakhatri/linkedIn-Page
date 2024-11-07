@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    /* border: 2px solid red; */
+    height: 60px;
+    display: flex;
+    background-color: white;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+    font-family: sans-serif;
+}
+.lin1{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.fa-linkedin{
+    color: rgb(40, 40, 184);
+    font-size: 40px;
+    padding: 2px px;
+    height: 10px;
+    margin-top: 10px;
+}
+.search{
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.329);
+    border: none;   
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.lin2{
+    width: 400px;
+    height: 55px;
+    /* border: 2px solid yellow; */
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+.icons{
+            margin: auto;
+            width: 400px;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            color: black;
+            font-size: x-large;
+            margin-top: 5px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.list{
+    /* margin: auto; */
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+    font-size: small;
+    margin-top: 5px;
+    list-style: none;
+    /* margin-left: 50px; */
+}
+.job{
+    margin-left: 15px;
+}
+.message{
+    margin-left: 15px;
+}
+.lin3{
+    width: 300px;
+    height: 55px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.businessIcon{
+    margin: auto;
+    height: 30px;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+    font-size: x-large;
+    margin-top: 5px;
+}
+.fa-ellipsis-v{
+    margin-left: 2px;
+}
+.fa-money-bill{
+    margin-left: 100px;
+}
+.businessName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list1{
+    margin: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    font-size: small;
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+}
+.business{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.premium{
+    /* margin-right: 60px; */
+}
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid rgba(128, 128, 128, 0.514);
+    font-family: sans-serif;
+    /* background-color: rgba(226, 211, 211, 0.404); */
+}
+.rightSection{
+    border: 2px;
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 1px 1px 2px 1px;
+    top: 10%;
+    left: 4%;
+}
+.backGround{
+    height: 15%;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(image\ 1.avif);
+}.logo{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    border: 3px solid white;
+}
+.name{
+    margin-top: 20px;
+    text-align: center;
+}
+.position{
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
+.line{
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.connection{
+    margin-top: 15px;
+    color: grey;
+    margin-left: 10px;
+}
+.grow{
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.fa-user-plus{
+    margin-left: 85%;
+}
+.line{
+    margin-top: 25px;
+    color: whitesmoke;
+}
+.career{
+    margin-top: 15px;
+    color: grey;
+    margin-left: 10px;
+}
+.pkr{
+    margin-left: 32px;
+    margin-top: -18px;
+}
+.fa-money-check{
+    margin-left: 10px;
+}
+.line{
+    margin-top: 25px;
+    color: whitesmoke;
+}
+.fa-bookmark{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: grey;
+}
+.saved{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.midSection{
+    margin: auto;
+    border: 2px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 7%;
+    /* z-index: -1; */
+}
+.creatingPost{
+    margin: auto;
+    border: 2px solid white;
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    cursor: pointer;
+}
+.logo1{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 3px solid white;
+    margin-top: -30px;
+}
+.searchInput{
+    flex: 1;
+    width: 160px;
+    border: 2px solid;
+    box-shadow: 1px 1px 1px 1px; 
+    margin-bottom: -150px;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 15px 180px;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+.itemList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2px;
+    color: blue;
+}
+.fa-photo-film{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    color: burlywood;
+}
+.fa-calendar-days{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    color: orangered;
+    margin-left: -25px;
+}
+.fa-newspaper{
+    display: flex;
+    justify-content: space-around;
+}
+.itemList1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.list2{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 7px;
+}
+.line3{
+    margin-top: 20px;
+}
+.postSection{
+    width: 600px;
+    background-color: white;
+    margin-top: 20px;
+}
+.suggest{
+    color: grey;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#fa-ellipsis{
+    margin-left: 470px;
+    color: black;
+    margin-bottom: 15px;
+}
+.post1{
+    margin: auto;
+    border: 2px solid white;
+    height: 650px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    margin-bottom: 10px; 
+}
+.p1{
+    height: 610px;  
+    width: 600px; 
+}
+.post2{
+    margin: auto;
+    border: 2px solid white;
+    height: 620px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    margin-bottom: 10px; 
+}
+.p2{
+    height: 610px;  
+    width: 600px; 
+}
+.post3{
+    margin: auto;
+    border: 2px solid white;
+    height: 750px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    margin-bottom: 10px; 
+}
+.p3{
+    height: 740px;  
+    width: 600px; 
+}
+.post4{
+    margin: auto;
+    border: 2px solid white;
+    height: 620px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    margin-bottom: 10px; 
+}
+.p4{
+    height: 610px;  
+    width: 600px; 
+}
+.post5{
+    margin: auto;
+    border: 2px solid white;
+    height: 620px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px;
+    margin-bottom: 10px; 
+}
+.p5{
+    height: 610px;  
+    width: 600px; 
+}
+.leftSection{
+    border: 2px;
+    /* margin-top: 400px; */
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 1px 1px 2px 1px;
+    top: 10%;
+    right: 4%;
+}
+.ad{
+    color: grey;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.linkedin{
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logoPart{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.logo2{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    border: 3px solid white;
+}
+#faLinkedin{
+    color: rgb(40, 40, 184);
+    font-size: 60px;
+    padding: 2px px;
+    height: 40px;
+    margin-top: -10px;
+}
+.hj{
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.learnMore{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: blue;
+    border: 2px solid blue;
+    margin-left: 80px;
+}
